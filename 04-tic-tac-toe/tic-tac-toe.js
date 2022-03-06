@@ -1,10 +1,30 @@
-//#9 3/5/2022 7:30pm - 
+//#9 3/6/2022 4:50pm - 
 
 
 
 
+//#9 3/6/2022 4:50pm - 
+const ticTacToe = {
+    board:[[null, null, null],
+            [null, null, null],
+            [null, null, null]],
+    move: function(char, rowNum, colNum){
+        if(this.board[rowNum][colNum] === null){
+        this.board[rowNum][colNum] = char
+        }
+        console.log(this.board)
+        return this.board
+    },
+    clear: function(){
+        return this.board = [[null, null, null],
+                            [null, null, null],
+                            [null, null, null]]
+    }
+}
 
-
+ticTacToe.move("x", 1, 1)
+console.log(ticTacToe.board)
+ticTacToe.clear()
 
 // //#8 3/12/2020
 // const ticTacToe = {
