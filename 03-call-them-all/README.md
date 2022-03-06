@@ -22,3 +22,10 @@ let addsNums = {
 
 callThemAll(addNums, 100); // => [110, 120]
 ```
+
+```js
+const callThemAll = (obj, val) => {
+  
+  return invokedArr
+}
+```
